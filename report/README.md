@@ -2,7 +2,7 @@ Programming assignment 4
 ================
 
 **Author**: Juan Garrido  
-**Date**: Last update: 2020-04-22 16:16:46
+**Date**: Last update: 2020-04-22 16:34:40
 
 # Overview
 
@@ -14,7 +14,7 @@ Programming assignment 4
 **Description of the assignment**
 
 In this programmaing assignment, we manipulated production data of 6
-participants (3 native speakers of English and 3 Spanish-English
+participants (3 English learners of Spanish and 3 Spanish-English
 bilinguals). First, we ran scripts on Praat to normalize the scale peak
 intensity and to create textgrids for each ‘.wav’ file of the production
 data. In each textgrid, we annotated the location of the stop
@@ -25,7 +25,7 @@ notes) of all the files using a loop, and created a ‘.csv’ file with the
 data. We had to run this script for every participant creating one
 ‘.csv’ file for each participant. Next, we had to read all the
 ‘.csv’ files into R, manipulate the data as necessary, run
-descriptive stats, create plots, and embedd an image from the production
+descriptive stats, create plots, and embed an image from the production
 data. We also had to create a hypothesis and use the plots and stats to
 test our hypothesis.
 
@@ -428,13 +428,13 @@ What would you do differently?
 **Discussion of hypothesis and results**
 
 Based on the results reported by Bradlow (1995), I hypothesized that
-native speakers of English exhibit different F1 and F2 values than
+English learners of Spanish exhibit different F1 and F2 values than
 Spanish-English bilinguals for the vowel /u/. Bradlow (1995) reported
 that the Spanish /u/ was located at lower F1 and F2 values than the
 English /u/. I expected to observe higher F1 and F2 values for the
 English natives than for the Spanish-English bilinguals assuming that
-the natives would have influence from English, and therefore not show
-native Spanish values. In order to test the hypothesis, I ran two
+the English natives would have influence from English, and therefore not
+show native Spanish values. In order to test the hypothesis, I ran two
 independent samples T-Tests (for F1 and F2) including both groups of
 participants. Results revealed a significant difference for the F2
 values of bilinguals and monolinguals (p-value = 0.0083); however, there
@@ -444,7 +444,8 @@ values (bilinguals *M* = 449.1107, *SD* = 92.43818; monolinguals *M* =
 534.5293, *SD* = 198.11902) and F2 values (bilinguals *M* = 960.4133,
 *SD* = 276.8831; monolinguals *M* = 1171.5711, *SD* = 244.4849), but
 only the difference in F2 was significant. Native speakers of English
-exhibited higher values than bilinguals, as I predicted. These results
+exhibited higher values than bilinguals, as I predicted, indicating
+different points of articulation for /u/ in these groups. These results
 coincide with those reported in the vowel space comparison by Bradlow
 (1995). Plot 3, plot 4, plot 5, and plot 6 above show F1 and F2 for both
 groups and we can see that the natives exhibited higher values.
