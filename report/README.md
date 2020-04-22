@@ -2,7 +2,7 @@ Programming assignment 4
 ================
 
 **Author**: Juan Garrido  
-**Date**: Last update: 2020-04-22 16:34:40
+**Date**: Last update: 2020-04-22 16:50:26
 
 # Overview
 
@@ -41,6 +41,9 @@ Spanish /u/ is located at different F1 and F2 values than the English
 than for the Spanish-English bilinguals assuming that the natives will
 have influence from English, and therefore not show native Spanish
 values.
+
+**Note:** I did my hypothesis on vowel formants, not VOT of the stops. I
+hope it’s not a problem.
 
 ![Vowel Space Comparison](../images/vowel_space.png)
 

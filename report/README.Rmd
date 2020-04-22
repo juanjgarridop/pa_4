@@ -23,6 +23,9 @@ In this programmaing assignment, we manipulated production data of 6 participant
 
 Based on the results reported by Bradlow (1995), I hypothesize that the native speakers of English exhibit different F1 and F2 values than the Spanish-English bilinguals for the vowel /u/. Bradlow (1995) reported differences in F1 and F2 values for vowels in Spanish and English (See image below for an example). In the image below, we can see that the Spanish /u/ is located at different F1 and F2 values than the English /u/. I expect to find higher F1 and F2 values for the English natives than for the Spanish-English bilinguals assuming that the natives will have influence from English, and therefore not show native Spanish values. 
 
+**Note:**
+I did my hypothesis on vowel formants, not VOT of the stops. I hope it's not a problem. 
+
 
 
 ![Vowel Space Comparison](../images/vowel_space.png){width=40%, height=40%}
