@@ -15,7 +15,7 @@
 
 # Which participant?
 form Select a participant
-	sentence fileID bi01
+	sentence fileID ne03
 endform
 
 # Where to save data
@@ -70,7 +70,7 @@ numberOfFiles = Get number of strings
 # Start loop ------------------------------------------------------------
 #
 
-#for file to numberOfFiles
+for file to numberOfFiles
 	select Strings dirFiles
 	fileName$ = Get string: file
 	prefix$ = fileName$ - ".wav"
